@@ -42,3 +42,8 @@ body {
   font-weight: 900;
 }
 
+
+.tablerow{
+  padding:0px !important;
+  height:0px !important;
+}

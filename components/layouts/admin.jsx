@@ -17,14 +17,13 @@ import Head from 'next/head'
 import Link from "next/link"
 import DraftsIcon from '@mui/icons-material/Drafts';
 
-
 const drawerWidth = 240;
 
 export default function Layout({children, pageTitle}) {
   return (
     <>
     <Head>
-      <title>BASIC NEXT| {' '} {pageTitle}</title>
+      <title>{`Home - ${pageTitle}`}</title>
       <meta name="description" content="Website Tebaik Solo" />
     </Head>
     <Box sx={{ display: "flex" }}>
