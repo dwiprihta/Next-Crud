@@ -16,6 +16,9 @@ palette: {
    },
    white:{
     main:'#ffff'
+   },
+   softSuccess:{
+    main:'#ffff'
    }
   },
 
